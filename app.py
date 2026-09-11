@@ -9,6 +9,28 @@ import joblib
 st.set_page_config(page_title="AES Avariya Bashoratchisi", page_icon="☢️", layout="wide")
 
 # ============================================
+# FON RASMI QO'SHISH
+# CSS orqali butun sahifaning orqa foniga rasm qo'yamiz
+# ============================================
+def add_background(image_url):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: 
+                linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+                url("{image_url}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+add_background("https://unsplash.com/photos/aerial-view-to-temelin-nuclear-power-plant-this-power-station-is-important-source-of-electricity-for-czech-republic-in-european-union-mZSATyrESko")
+
+# ============================================
 # MODEL VA YORDAMCHI FAYLLARNI YUKLASH
 # @st.cache_resource -- bu Streamlit'ga "bu funksiyani faqat BIR MARTA
 # ishga tushir, natijani xotirada saqla" deydi, aks holda har safar
