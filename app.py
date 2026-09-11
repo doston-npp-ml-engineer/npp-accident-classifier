@@ -28,7 +28,7 @@ def add_background(image_url):
         """,
         unsafe_allow_html=True
     )
-add_background("https://unsplash.com/photos/aerial-view-to-temelin-nuclear-power-plant-this-power-station-is-important-source-of-electricity-for-czech-republic-in-european-union-mZSATyrESko")
+add_background("https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI0fHx8ZW58MHx8fHx8")
 
 # ============================================
 # MODEL VA YORDAMCHI FAYLLARNI YUKLASH
