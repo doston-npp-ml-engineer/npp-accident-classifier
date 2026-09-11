@@ -34,7 +34,7 @@ PWR reaktori uchun 18 xil holat (17 avariya turi + Normal) bo'yicha vaqt qatori 
 
 ## 🚀 Ilovani ishga tushirish
 
-Streamlit orqali: [havola shu yerga qo'shiladi]
+🔗 **Jonli havola:** https://npp-accident-classifier-kvvxnnyg2cb4erv6cc9eot.streamlit.app/
 
 ## 📁 Fayllar
 
