@@ -28,7 +28,7 @@ def add_background(image_url):
         """,
         unsafe_allow_html=True
     )
-add_background("https://plus.unsplash.com/premium_photo-1661898205432-d648667b9c76?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI0fHx8ZW58MHx8fHx8")
+add_background("https://images.unsplash.com/photo-1751453875319-660527493daa?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 
 # ============================================
 # MODEL VA YORDAMCHI FAYLLARNI YUKLASH
